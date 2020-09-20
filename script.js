@@ -46,10 +46,10 @@ async function getQuote() {
         
         removeLoadingSpinner();
 
-        throw new Error ('oops!')
+        //throw new Error ('oops!')
     }
     catch (error) {
-        console.log(error);
+        //console.log(error);
         getQuote();
     }
 }
